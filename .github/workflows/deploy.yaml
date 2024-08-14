@@ -29,7 +29,7 @@ jobs:
       run: npm run build
 
     - name: Deploy to Github Pages
-      uses: gh-pages/deploy@v1
+      uses: peaceiris/actions-gh-pages@v4
       with:
         branch: gh-pages
         folder: build
