@@ -1,7 +1,5 @@
 name: CI/CD for React basic app
 
-description: A basic CI/CD pipeline for a React app
-  
 on:
   push:
     branches:
