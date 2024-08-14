@@ -9,6 +9,7 @@ function App() {
         <p>
           This is a react app. and other updates as well
         </p>
+        <h1>ReactApp</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
