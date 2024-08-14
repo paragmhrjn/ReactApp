@@ -1,9 +1,12 @@
 name: CI/CD for React basic app
 
+description: A basic CI/CD pipeline for a React app
+  
 on:
   push:
-  branches: [ master ]
-  workflow_dispatch:
+    branches:
+      - master
+    workflow_dispatch:
 
 permissions:
   contents: write
