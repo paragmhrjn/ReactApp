@@ -1,0 +1,35 @@
+name: CI/CD for React basic app
+
+on:
+  push:
+  branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build_and_deploy:
+  runs-on: ubuntu-latest
+
+  steps:
+  - name: Checkout code
+    uses: actions/checkout@v2
+
+  - name: Setup Node.js
+    uses: actions/setup-node@v2
+    with:
+      node-version: latest
+
+  - name: Install depenencies
+    run: npm install
+
+  - name: Build Project
+    run: npm run build
+
+  - name: Deploy to Github Pages
+    uses: gh-pages/deploy@v1
+    with:
+      branch: gh-pages
+      folder: build
+    
