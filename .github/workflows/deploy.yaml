@@ -32,6 +32,6 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        public_branch: gh-pages
-        public_dir: build
+        branch: gh-pages
+        folder: build
     
