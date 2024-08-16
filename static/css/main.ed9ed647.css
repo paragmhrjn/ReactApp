@@ -1,2 +1,0 @@
-html{scroll-behavior:smooth;scroll-snap-type:y mandatory}*{box-sizing:border-box;font-family:DM Sans,sans-serif;margin:0;padding:0}body{background-color:#0c0c1d;color:#d3d3d3}a{color:inherit;text-decoration:none}section{height:100vh;scroll-snap-align:center}.navbar{height:100px}.navbar .wrapper{align-items:center;display:flex;height:100%;justify-content:space-between;margin:auto;max-width:1366px}.navbar .wrapper span{font-weight:bolder}.navbar .wrapper .social{display:flex;gap:20px}.navbar .wrapper .social a{color:#d3d3d3}
-/*# sourceMappingURL=main.ed9ed647.css.map*/
