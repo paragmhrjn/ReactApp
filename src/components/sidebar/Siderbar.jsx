@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./sidebar.scss"
 import {Links} from "./links/Links";
 import { ToggleButton } from './toggleButton/ToggleButton';
-import { delay, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 export default function Siderbar() {
   const [open, setOpen] = useState(false)
   const variants = {
@@ -16,6 +16,7 @@ export default function Siderbar() {
     closed:{
       clipPath: "circle(30px at 50px 50px)",
       transition: {
+        delay: 0.5,
         type: "spring",
         stiffness: 400,
         damping: 40,
