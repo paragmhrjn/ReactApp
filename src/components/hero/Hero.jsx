@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.scss";
-import hero from "./img/hero.png"
+import hero from "../../images/hero.png"
 import { RiScrollToBottomLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 // eslint-disable-next-line 
@@ -26,6 +26,20 @@ const textVariants = {
         }
     }
 
+};
+
+const slideVariants = {
+    initial: {
+        x: 0,
+    },
+    animate: {
+        x: "-220%",
+        transition: {
+            repeat: Infinity,
+            repeatType: "mirror",
+            duration:20,
+    },
+    },
 }
 export const Hero = () => {
   return (
@@ -44,9 +58,9 @@ export const Hero = () => {
                 
             </motion.div>
         </div>
-            <div className="slidingTextContainer">
+            <motion.div className="slidingTextContainer" variants={slideVariants} initial="initial" animate="animate">
                 Developer Writer Content Creator Influencer
-            </div>
+            </motion.div>
         <div className="imageContainer">
             <img src={hero} alt="" height={1000} />
         </div>
