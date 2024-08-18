@@ -1,4 +1,4 @@
-import { animate } from "framer-motion";
+import React from "react";
 import "./hero.scss";
 import hero from "./img/hero.png"
 import { RiScrollToBottomLine } from "react-icons/ri";
