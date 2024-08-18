@@ -3,12 +3,13 @@ import "./hero.scss";
 import hero from "./img/hero.png"
 import { RiScrollToBottomLine } from "react-icons/ri";
 import { motion } from "framer-motion";
+// eslint-disable-next-line 
 const textVariants = {
     initial: {
         opacity: 0,
-        x: -500,
+        x:-500,
         },
-    animate: {
+    anim: {
         x: 0,
         opacity:1,
         transition: {
@@ -30,7 +31,7 @@ export const Hero = () => {
   return (
     <div className="hero">
         <div className="wrapper">
-        <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
+        <motion.div className="textContainer" variants={textVariants} initial="initial" animate="anim">
             <motion.h2 variants={textVariants}>TECH DEV</motion.h2>
             <motion.h1 variants={textVariants}>Web Developer and Designer</motion.h1>
             <motion.div variants={textVariants} className="buttons">
