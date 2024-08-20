@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactapp/static/css/main.ff94e149.css",
-    "main.js": "/reactapp/static/js/main.41be33de.js",
+    "main.css": "/reactapp/static/css/main.b30e6dbe.css",
+    "main.js": "/reactapp/static/js/main.dcdf755b.js",
     "static/media/mountains.png": "/reactapp/static/media/mountains.55df80b9bbe443a3aa0b.png",
     "static/media/hero.png": "/reactapp/static/media/hero.2311d8ef8d0328636092.png",
     "static/media/people.webp": "/reactapp/static/media/people.58eb2f8d793cb5ba671a.webp",
@@ -9,11 +9,11 @@
     "static/media/planets.png": "/reactapp/static/media/planets.827213af57ae82d007cd.png",
     "static/media/sun.png": "/reactapp/static/media/sun.1122608e12712a52470d.png",
     "index.html": "/reactapp/index.html",
-    "main.ff94e149.css.map": "/reactapp/static/css/main.ff94e149.css.map",
-    "main.41be33de.js.map": "/reactapp/static/js/main.41be33de.js.map"
+    "main.b30e6dbe.css.map": "/reactapp/static/css/main.b30e6dbe.css.map",
+    "main.dcdf755b.js.map": "/reactapp/static/js/main.dcdf755b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff94e149.css",
-    "static/js/main.41be33de.js"
+    "static/css/main.b30e6dbe.css",
+    "static/js/main.dcdf755b.js"
   ]
 }
