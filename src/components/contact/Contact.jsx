@@ -66,7 +66,7 @@ export const Contact = () => {
              </svg>
               </motion.div>
 
-            <motion.form action="" initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:4, duration:1}}>
+            <motion.form initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:4, duration:1}}>
                 <input type="text" placeholder="Name" required/>
                 <input type="text" placeholder='Email' required/>
                 <textarea rows={8} placeholder="Message"></textarea>
